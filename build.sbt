@@ -7,5 +7,7 @@ lazy val root = (project in file("."))
     name := "SparkX"
   )
 
-libraryDependencies += "org.apache.spark" %% "spark-core" % "2.3.0"
+libraryDependencies += "org.apache.spark" %% "spark-core" % "2.4.8"
+libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.4.8"
+
 

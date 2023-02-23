@@ -9,8 +9,8 @@ object RDDTransformations {
     // creating an RDD
     val RDD = spark.sparkContext.parallelize(List(1, 2, 3, 4, 3, 2, 4, 1, 43, 34, 3, 43, 12, 3))
 
-    // filter:
-    RDD.filter(x => x > 5).foreach(println)
+    // filter example:
+    println(RDD.filter(x => x > 5).count())
 
 
   }

@@ -26,7 +26,8 @@ object RDDCreation {
 
     // by transforming an existing RDD:
     var numList: List[Double] = List(12, 45, 67, 89, 45, 45, 76, 34, 3, 76, 34, 35, 576, 74, 345, 79, 87, 14, 85)
-    var outputRDD = numList.map(x => x/5)
+    var numRDD = spark.sparkContext.parallelize(numList)
+    var outputRDD = numRDD.map(x => x/5)
     outputRDD.foreach(println)
     println("-------------------------------------------------------------------------")
 

@@ -1,1 +1,8 @@
-I was quite confident about the .NET bindings since it was extremely easy to get them working on my laptop. I admit I got nervous about how it would work on Non-Windows platforms since it was my first time writing .NET code on a platform that isn't windows. I shouldn't have been nervous. It was fairly easy to install Mono and MonoDevelop on my Ubuntu VM and ran the NUnit tests that we have. Google Chrome started and we had tests passing. Brillant because there was little code changes, I just updated the code where to find the Google Chrome application.
+I was quite confident about the .NET bindings since it was extremely easy
+to get them working on my laptop.
+I admit I got nervous about how it would work on Non-Windows platforms
+since it was my first time writing .NET code on a platform that isn't windows.
+I shouldn't have been nervous. It was fairly easy to install Mono and MonoDevelop on my Ubuntu VM and
+ran the NUnit tests that we have. Google Chrome started and we had tests passing.
+Brillant because there was little code changes,
+I just updated the code where to find the Google Chrome application.
